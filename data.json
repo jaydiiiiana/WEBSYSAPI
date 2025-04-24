@@ -1,0 +1,52 @@
+{
+    "computer_name": "MyAwesomePC",
+    "processor": {
+      "name": "Intel Core i7-12700K",
+      "cores": 12,
+      "threads": 20,
+      "clock_speed_ghz": 5.0,
+      "cache_mb": 25
+    },
+    "memory": {
+      "type": "DDR4",
+      "capacity_gb": 32,
+      "speed_mhz": 3200
+    },
+    "storage": [
+      {
+        "type": "SSD",
+        "capacity_gb": 512,
+        "interface": "NVMe"
+      },
+      {
+        "type": "HDD",
+        "capacity_gb": 2000,
+        "interface": "SATA"
+      }
+    ],
+    "graphics": {
+      "card": "NVIDIA GeForce RTX 3080",
+      "memory_gb": 10,
+      "interface": "PCIe 4.0"
+    },
+    "operating_system": {
+      "name": "Windows 11 Pro",
+      "version": "22H2",
+      "architecture": "64-bit"
+    },
+    "networking": {
+      "ethernet": {
+        "adapter": "Realtek Gigabit Ethernet",
+        "speed": "1 Gbps"
+      },
+      "wifi": {
+        "adapter": "Intel Wi-Fi 6 AX200",
+        "standard": "Wi-Fi 6 (802.11ax)"
+      }
+    },
+    "other": {
+      "power_supply": "750W 80+ Gold",
+      "case": "Full Tower",
+      "motherboard": "ASUS ROG Maximus Z690 Hero"
+    }
+  }
